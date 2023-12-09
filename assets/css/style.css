@@ -1,0 +1,71 @@
+body, html {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    ul { list-style: none; padding-left: 5px; }
+    a { color:blue; text-decoration: none;}
+    .bar {
+        background-color: whitesmoke;
+        padding:15px;
+        border-top: solid 1px #cdcdcd;
+        border-bottom: solid 3px gray;
+    }
+    .content {
+        max-width: 1500px;
+        margin: auto;
+        grid-gap: 3rem;
+        display: grid;
+        gap: 3rem;
+        grid-template-areas: "sidebar main anchors";
+        grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .footer {
+        min-height: 100px;
+        border-top: solid 1px gray;
+        text-align: center;
+    }
+    .anchors {
+        border-left: solid 1px gray;
+        border-right: solid 1px gray;
+        padding-left: 15px;
+        text-align: center;
+        background-color: whitesmoke;
+    }
+    .sidebar {
+        border-right: solid 1px gray;
+        border-left: solid 1px gray;
+        text-align: center;
+        background-color: whitesmoke;
+    }
+    figure {
+        text-align: center;
+        margin: 0%;
+        
+    }
+    .main h2 {
+        text-align: left;
+        font-family: sans-serif;
+        color: blueviolet;
+    }
+    .main h1 {
+        text-align: center;
+        font-family: sans-serif;
+    }
+    .main p {
+        text-align: left;
+        font-family: sans-serif;
+    }
+    .details {
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        padding: 0.5em 0.5em 0;
+    }
+    .logo {
+        background-color: hsl(2, 57%, 40%);
+        background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+        repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+        repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);
+    }
